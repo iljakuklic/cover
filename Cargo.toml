@@ -1,0 +1,9 @@
+[package]
+name = "cover"
+version = "0.1.0"
+authors = ["LukasK <ilja.kuklic@centrum.cz>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
