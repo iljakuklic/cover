@@ -7,3 +7,10 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+phantom_newtype = "0.2.0"
+sorted-iter = { git = "https://github.com/iljakuklic/sorted-iter", branch = "multiway-union" }
+
+[dev-dependencies]
+rand = "0.7"
+quickcheck = "0.9"
+quickcheck_macros = "0.9"
